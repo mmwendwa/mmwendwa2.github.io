@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="form.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="menu">
+    <div class="main-content">
+    <main>
+    <h1>Registration Form</h1>
+    <form action="https://mwendwa@Mutunga.org/submit_docs" target="_blank" autocomplete="on" method="post">
+        <input type="text" name="fname" placeholder="First name" required=""><br><br>
+      <!--label for="fname">First name:</label><br>-->
+        <input type="text" name="lname" placeholder="Last Name"  required=""><br><br>
+      <!--<label for="lname">Last name:</label><br> -->
+        <input type="text" name="email" placeholder="Email"      required=""><br><br>
+        <input type="text" name="passwd" placeholder="Password"  required=""><br><br>
+    <fieldset>
+      <!-- <label> What is your Age? </label> <br>-->
+       <label id="number-label">Age(optional)<br><input id="number" type="number" name="age" min="18" max="100" placeholder="Age"></input></label>
+    
+       <!-- <form action="/action_page.php">
+            <select name="cars">
+            </select>
+            </form>-->
+       </label><br>
+    </fieldset>
+      <fieldset>
+        <label>What is your Age, again?</label>
+      
+               <label for="m-label"><input class="inline" id="M" type="checkbox" name="gender" value="M" checked>Male</label>
+               <label for="f-label"><input class="inline" id="F" type="checkbox" name="gender" value="F">Female</label>
+               <label for="uni-label"><input class="inline" id="Uni" type="checkbox" name="gender" value="Uni">Unisex</label>
+      </fieldset>
+      <!-- <button type="submit">Submit</button>-->
+        <input id="submit" type="submit" value="Submit">
+      </form>
+    </main>
+    <footer>
+      <p>No Copyright - <a href="https://mwendwa@Mutunga.org">mwendwa@Mutunga.org</a></p>
+    </footer>
+  </div>
+  </div>
+</body>
+</html>
